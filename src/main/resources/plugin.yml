@@ -1,0 +1,34 @@
+name: Citrine
+main: com.disepi.citrine.Main
+version: "1.0.0"
+api: [ "1.0.0" ]
+
+load: POSTWORLD
+author: Disepi
+description: Citrine
+
+commands:
+  hub:
+    description: Leave your match and go back to the hub
+    usage: "/hub"
+    default: true
+  q:
+    description: Queue into a game
+    usage: "/q"
+    default: true
+  queue:
+    description: Queue into a game
+    usage: "/queue"
+    default: true
+  chestfind:
+    description: Finds chests
+    usage: "/chestfind"
+    default: true
+  enderfind:
+    description: Finds echests
+    usage: "/enderfind"
+    default: true
+  forcestart:
+    description: Forces the game to start
+    usage: "/forcestart"
+    default: true
